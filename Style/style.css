@@ -209,7 +209,7 @@ section {
 }
 .header-content .left-header .image img {
   width: 500px;
-  height: 680px;
+  height: 662px;
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
@@ -754,6 +754,12 @@ section {
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
+    height: 85%;
+    width: 70%;
+  }
+  .header-content .left-header .image img {
+    width: 500px;
+    height: 680px;
   }
   .controlls {
     top: auto;
