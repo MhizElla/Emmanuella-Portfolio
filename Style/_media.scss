@@ -13,6 +13,7 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        padding-right: 2rem;
     }
     .left-header{
         .h-shape{
@@ -36,9 +37,10 @@
         .right-about{
             grid-template-columns: 1fr;
             padding-top: 2.5rem;
+            padding-right: 2rem;
         }
         .left-about{
-            padding-right: 0;
+            padding-right: 2rem;
             p{
                 padding-left: 0;
             }
@@ -56,8 +58,15 @@
     .section{
         padding: 2rem 2.5rem;
     }
+    
     .contact-content-con{
         flex-direction: column;
+        .contact-item{
+            flex-direction: column;
+        }
+        .contact-icons .contact-icon{
+            justify-content: center;
+        }
         .right-contact{
             margin-left: 0;
             margin-top: 2.5rem;

@@ -663,6 +663,7 @@ section {
   .header-content {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    padding-right: 2rem;
   }
   .left-header .h-shape {
     display: none;
@@ -685,9 +686,10 @@ section {
   .about-container .right-about {
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
+    padding-right: 2rem;
   }
   .about-container .left-about {
-    padding-right: 0;
+    padding-right: 2rem;
   }
   .about-container .left-about p {
     padding-left: 0;
@@ -704,6 +706,12 @@ section {
   }
   .contact-content-con {
     flex-direction: column;
+  }
+  .contact-content-con .contact-item {
+    flex-direction: column;
+  }
+  .contact-content-con .contact-icons .contact-icon {
+    justify-content: center;
   }
   .contact-content-con .right-contact {
     margin-left: 0;
