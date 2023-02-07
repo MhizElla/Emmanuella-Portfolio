@@ -655,13 +655,19 @@ section {
   }
   .about-container .right-about {
     grid-template-columns: 1fr;
-    padding: 2.5rem;
+    padding: 3.5rem;
   }
   .about-container .left-about {
     padding-right: 0;
   }
+  .about-container .left-about h4 {
+    padding-left: 3.5rem;
+  }
   .about-container .left-about p {
-    padding-left: 0;
+    padding: 3.5rem;
+  }
+  .about-container .left-about .btn-container {
+    padding-left: 3.5rem;
   }
   .portfolios {
     grid-template-columns: 1fr;
@@ -672,6 +678,7 @@ section {
   }
   .main-title h2 {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
   .main-title h2 .me {
     font-size: 2.5rem;
@@ -689,6 +696,27 @@ section {
   }
   .contact-content-con {
     flex-direction: column;
+  }
+  .contact-content-con .left-contact h4 {
+    padding-left: 3rem;
+  }
+  .contact-content-con .left-contact p {
+    padding-left: 3rem;
+  }
+  .contact-content-con .left-contact .contact-item {
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .contact-content-con .left-contact .contact-item i {
+    margin-right: 1rem;
+  }
+  .contact-content-con .left-contact .contact-item p {
+    margin-top: 0;
+  }
+  .contact-content-con .left-contact .contact-icon {
+    align-items: center;
+    justify-content: center;
   }
   .contact-content-con .right-contact {
     margin-left: 0;
@@ -710,7 +738,7 @@ section {
     padding-top: 2.5rem;
   }
   .portfolios {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .main-title h2 {
     font-size: 4rem;
@@ -754,12 +782,6 @@ section {
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
-    height: 85%;
-    width: 70%;
-  }
-  .header-content .left-header .image img {
-    width: 500px;
-    height: 680px;
   }
   .controlls {
     top: auto;
@@ -781,6 +803,7 @@ section {
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
+    padding: 3.5rem;
   }
   .main-title h2 {
     font-size: 3rem;
