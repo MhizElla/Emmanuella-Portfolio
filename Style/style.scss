@@ -209,7 +209,7 @@ section{
         }
         .image{
             border-radius: var(--br-sm-2);
-            margin-top: 7rem;
+            
             height: 99%;
             width: 67%;
             margin-left: 4rem;
@@ -317,6 +317,7 @@ section{
 
 /* About */
 .main-title{
+    padding-bottom: 2rem;
     text-align: center;
     h2{
         position: relative;
@@ -335,7 +336,7 @@ section{
             transform: translate(-50%, -50%);
             z-index: -1;
             font-weight: 800;
-            font-size: 6.3rem;
+            font-size: 5.3rem;
         }
     }
 }
@@ -348,6 +349,8 @@ section{
     grid-template-columns: repeat(2, 1fr);
     padding-top: 3.5rem;
     padding-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
     
     .right-about{
         display: grid;
@@ -397,10 +400,12 @@ section{
 
 
 .left-about{
+    
     padding: 1rem;
     p{
         line-height: 2rem;
         padding: 1rem;
+        
         
     }
     h4{

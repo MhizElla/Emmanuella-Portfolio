@@ -2,6 +2,8 @@
     
     .about-container{
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
         .right-about{
             grid-template-columns: 1fr;
             padding-top: 2.5rem;
@@ -92,14 +94,18 @@
     }
     .main-title{
         h2{
-            font-size: 4rem;
+            font-size: 3rem;
             .me{
-                font-size: 4rem;
+                font-size: 3rem;
             }
             .big-text{
                 font-size: 4.5rem;
             }
         }
+        
+    }
+    p{
+        margin-top: 2rem;
     }
 
 }
@@ -121,6 +127,8 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        justify-content: center;
+        align-items: center;
     }
     .left-header{
         .h-shape{
